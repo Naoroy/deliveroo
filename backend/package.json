@@ -13,22 +13,21 @@
   "dependencies": {
     "strapi": "3.6.3",
     "strapi-admin": "3.6.3",
-    "strapi-utils": "3.6.3",
-    "strapi-plugin-content-type-builder": "3.6.3",
+    "strapi-connector-mongoose": "3.6.3",
     "strapi-plugin-content-manager": "3.6.3",
-    "strapi-plugin-users-permissions": "3.6.3",
+    "strapi-plugin-content-type-builder": "3.6.3",
     "strapi-plugin-email": "3.6.3",
-    "strapi-plugin-upload": "3.6.3",
+    "strapi-plugin-graphql": "^3.6.3",
     "strapi-plugin-i18n": "3.6.3",
-    "strapi-connector-bookshelf": "3.6.3",
-    "knex": "0.21.18",
-    "sqlite3": "5.0.0"
+    "strapi-plugin-upload": "3.6.3",
+    "strapi-plugin-users-permissions": "3.6.3",
+    "strapi-utils": "3.6.3"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "7292efd5-217d-4c1c-95ff-d808ec64a86d"
+    "uuid": "337a1b4d-308d-4178-aaef-c0ae3047ffaf"
   },
   "engines": {
     "node": ">=10.16.0 <=14.x.x",
