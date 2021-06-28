@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "name": "order"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "address": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "dishes": {
+      "type": "json"
+    },
+    "amount": {
+      "type": "integer"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "orders"
+    },
+    "restaurant": {
+      "model": "restaurant",
+      "via": "orders"
+    },
+    "delivery_date": {
+      "type": "datetime",
+      "required": true
+    }
+  }
+}
